@@ -229,7 +229,10 @@ ul {
     align-items: center;
     position: relative;
     padding-top: 70px;
-    background: linear-gradient(135deg, #f0f8ff 0%, #e0f7fa 100%);
+    background-image: url('images/media__1778820498887.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -239,7 +242,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(circle at right center, rgba(0, 180, 216, 0.1) 0%, transparent 50%);
+    background-color: rgba(7, 21, 43, 0.85); /* Very dark navy overlay for excellent text readability */
 }
 
 .hero-content {
@@ -256,12 +259,12 @@ ul {
     font-size: 3.5rem;
     line-height: 1.2;
     margin-bottom: 20px;
-    color: var(--primary-dark);
+    color: var(--bg-white);
 }
 
 .hero-text p {
     font-size: 1.2rem;
-    color: var(--text-light);
+    color: rgba(255, 255, 255, 0.9);
     margin-bottom: 30px;
 }
 
